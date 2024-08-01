@@ -5,16 +5,16 @@ const Hero: React.FC = () => {
     <div className="flex flex-col md:flex-row justify-between items-center p-5">
       <div className="relative w-full md:w-6/12">
         <img
-          src="/public/bg1.jpg"
+          src="/bg1.jpg"
           className="hidden md:block w-full h-96 object-cover md:w-64 md:h-96 ml-0 md:ml-24 mt-14 "
         />
         <h1 className="block md:hidden text-center">Kiara Padilla</h1>
         <img
-          src="/public/fg1.jpg"
+          src="/fg1.jpg"
           className="block md:hidden mx-auto w-48 h-60 mt-4 mb-8 md:mb-0"
         />
         <img
-          src="/public/fg1.jpg"
+          src="/fg1.jpg"
           className="hidden md:block absolute top-0 left-0 translate-x-60 translate-y-40 border-4 border-white w-48 h-60"
         />
       </div>
